@@ -1,15 +1,6 @@
 # this is how to convert decimal to roman numeral
 # https://www.rapidtables.com/convert/number/how-number-to-roman-numerals.html
 
-# class Integer
-
-#   def to_roman
-#     return "I"
-#   end
-# end
-
-
-
 class Integer
 
   CONVERTER_HASH = {
