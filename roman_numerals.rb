@@ -2,7 +2,7 @@
 # https://www.rapidtables.com/convert/number/how-number-to-roman-numerals.html
 
 class Integer
-
+  # is it bad this is a constant? unclear
   CONVERTER_HASH = {
     1 => "I",
     4 => "IV",
@@ -29,6 +29,7 @@ class Integer
   
 
   def to_roman
+     #is this bad? also unclear
     num = self
     roman = ""
     max_decimal_num = num
