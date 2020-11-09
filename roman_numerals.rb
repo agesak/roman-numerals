@@ -22,7 +22,7 @@ class Integer
   def find_roman_numeral(num)
     sub_hash = CONVERTER_HASH.select{|k, v| num - k >= 0}
     max_pair = sub_hash.max_by{|k, v| k}
-    num = num - max_pair[0]
+    num -= max_pair[0]
     roman_numeral = max_pair[1]
     return num, roman_numeral
   end
